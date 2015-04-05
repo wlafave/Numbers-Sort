@@ -1,0 +1,68 @@
+#sortable { list-style-type: none; 
+            position: relative;
+            width: 500px; 
+            cursor: pointer;
+}
+
+#sortable li { margin: 3px 5px 3px 0; 
+               padding: 1px; 
+               float: left; 
+               width: 100px; 
+               height: 90px; 
+               font-size: 4em; 
+               text-align: center; 
+               background-color: #96CDCD;
+               background-image: url('../img/subtleOrange.jpg'); 
+               border: 2px solid #000; 
+               text-align: center;}
+
+#sortable li:hover {
+             background-color: #7fafaf;
+}
+
+#sortable li img {
+             margin-top: -50px;
+
+}
+
+
+#PageRefresh {
+                width: 200px;
+                height: 75px;
+                background: #E0E0E0;
+                filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#E9E9E9', endColorstr='#D7D7D7');
+                background: -webkit-gradient(linear, left top, left bottom, from(#E9E9E9), to(#D7D7D7)); 
+                background: -moz-linear-gradient(top,  #E9E9E9,  #D7D7D7); 
+                padding: 8px;
+                -webkit-box-shadow: inset 0px 2px 2px #B2B3B5, 0px 1px 0 #fff;
+                -moz-box-shadow: inset 0px 2px 2px #B2B3B5, 0px 1px 0 #fff;
+                -o-box-shadow: inset 0px 2px 2px #B2B3B5, 0px 1px 0 #fff;
+                -khtml-box-shadow: inset 0px 2px 2px #B2B3B5, 0px 1px 0 #fff;
+                box-shadow: inset 0px 2px 2px #B2B3B5, 0px 1px 0 #fff;
+                -webkit-border-radius: 50px; 
+                -moz-border-radius: 50px; 
+                -o-border-radius: 50px; 
+                -khtml-border-radius: 50px;
+                border-radius: 50px;
+                color: ##3B6061; 
+                font-family:helvetica, arial, sans-serif;
+                font-size: 22px;
+                font-weight: bold;
+                text-shadow: 0px 3px 1px rgba(245, 245, 245, 1);
+                margin: 65px 55px 0 100px;
+}
+
+.ui-dialog { position: absolute; padding: .2em; width: 300px; background-image: url('../img/subtlegrey.jpg'); border: 1px solid black; color: white; font-family: 'Raleway',sans-serif !important; font-size: 20px; }
+.ui-dialog .ui-dialog-titlebar { padding: .4em 1em; position: relative; background-color: #13b167; }
+.ui-dialog .ui-dialog-title { font-family: 'Raleway',sans-serif !important; margin: .1em 16px .1em 0; } 
+.ui-dialog .ui-dialog-titlebar-close { position: absolute; right: .1em; top: 50%; width: 19px; margin: -10px 0 0 20px; padding: 1px; height: 16px; }
+.ui-dialog-titlebar-close { margin-left: -20px; font-size: 12px;}
+.ui-dialog .ui-dialog-titlebar-close span { display: block; margin: 0 0 0 -55px; }
+.ui-dialog .ui-dialog-titlebar-close:hover, .ui-dialog .ui-dialog-titlebar-close:focus { padding: 0; }
+.ui-dialog .ui-dialog-content { position: relative; border: 0; padding: .5em 1em; background: none; overflow: auto; zoom: 1; }
+.ui-dialog .ui-dialog-buttonpane { text-align: left; border-width: 1px 0 0 0; background-image: none; margin: .5em 0 0 0; padding: .3em 1em .5em .4em; }
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset { float: right; }
+.ui-dialog .ui-dialog-buttonpane button { margin: 1em 0 .5em 2px; cursor: pointer; }
+.ui-dialog .ui-resizable-se { width: 14px; height: 14px; right: 3px; bottom: 3px; }
+.ui-draggable .ui-dialog-titlebar { cursor: move; }
+
